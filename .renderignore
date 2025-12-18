@@ -1,0 +1,16 @@
+# Render ignore file
+node_modules/
+venv/
+__pycache__/
+*.pyc
+*.log
+.env
+.env.local
+.git/
+.DS_Store
+*.md
+!README.md
+logs/
+uploads/
+*.pdf
+

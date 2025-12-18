@@ -1,0 +1,15 @@
+# Minimal requirements for ML service (FastAPI only, no heavy ML libraries)
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+pydantic>=2.10.0
+pydantic-settings>=2.6.0
+python-multipart==0.0.6
+python-dotenv==1.0.0
+
+# Utilities
+httpx==0.25.2
+aiofiles==23.2.1
+
+# Note: TensorFlow, PyTorch, transformers, etc. can be installed later when needed
+# They are very large (2GB+) and can be added incrementally
+

@@ -1,0 +1,51 @@
+{
+  "name": "agilesafe-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "lint": "eslint . --ext js",
+    "format": "prettier --write \"**/*.js\"",
+    "seed": "node src/scripts/seed.js",
+    "seed:force": "node src/scripts/seed.js --force",
+    "fix:passwords": "node src/scripts/fixPasswords.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "bcryptjs": "^2.4.3",
+    "check-disk-space": "^3.4.0",
+    "cors": "^2.8.5",
+    "csv-parse": "^5.5.2",
+    "dompurify": "^3.3.0",
+    "dotenv": "^16.3.1",
+    "exceljs": "^4.4.0",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.1.5",
+    "express-validator": "^7.0.1",
+    "googleapis": "^166.0.0",
+    "helmet": "^7.1.0",
+    "ioredis": "^5.8.2",
+    "joi": "^17.11.0",
+    "jsdom": "^27.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.3",
+    "morgan": "^1.10.1",
+    "multer": "^2.0.2",
+    "node-cron": "^4.2.1",
+    "nodemailer": "^7.0.10",
+    "nodemailer-express-handlebars": "^7.0.0",
+    "passport": "^0.7.0",
+    "passport-google-oauth20": "^2.0.0",
+    "puppeteer": "^24.30.0",
+    "sharp": "^0.34.5",
+    "socket.io": "^4.5.4",
+    "winston": "^3.11.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "eslint": "^8.55.0",
+    "nodemon": "^3.0.2",
+    "prettier": "^3.1.1"
+  }
+}

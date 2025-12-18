@@ -1,0 +1,63 @@
+/**
+ * Mock Sprints Data
+ * Sample sprints with realistic data
+ */
+export const mockSprints = [
+  {
+    id: '1',
+    name: 'Sprint 1 - Foundation',
+    projectId: '1',
+    startDate: '2024-11-04',
+    endDate: '2024-11-17',
+    goal: 'Set up project foundation and core infrastructure',
+    status: 'completed',
+    capacity: 80,
+    velocity: 75,
+    stories: ['1', '2', '3'],
+    createdAt: '2024-11-01T00:00:00Z',
+    updatedAt: '2024-11-17T23:59:59Z',
+  },
+  {
+    id: '2',
+    name: 'Sprint 2 - Authentication',
+    projectId: '1',
+    startDate: '2024-11-18',
+    endDate: '2024-12-01',
+    goal: 'Implement user authentication and authorization',
+    status: 'active',
+    capacity: 80,
+    velocity: 0,
+    stories: ['4', '5', '6'],
+    createdAt: '2024-11-15T00:00:00Z',
+    updatedAt: '2024-11-18T00:00:00Z',
+  },
+  {
+    id: '3',
+    name: 'Sprint 3 - Dashboard',
+    projectId: '1',
+    startDate: '2024-12-02',
+    endDate: '2024-12-15',
+    goal: 'Build main dashboard with analytics',
+    status: 'planned',
+    capacity: 80,
+    velocity: 0,
+    stories: ['7', '8', '9'],
+    createdAt: '2024-11-20T00:00:00Z',
+    updatedAt: '2024-11-20T00:00:00Z',
+  },
+  {
+    id: '4',
+    name: 'Sprint 1 - Design System',
+    projectId: '2',
+    startDate: '2024-11-11',
+    endDate: '2024-11-24',
+    goal: 'Create design system and component library',
+    status: 'active',
+    capacity: 60,
+    velocity: 40,
+    stories: ['10', '11'],
+    createdAt: '2024-11-08T00:00:00Z',
+    updatedAt: '2024-11-18T00:00:00Z',
+  },
+]
+

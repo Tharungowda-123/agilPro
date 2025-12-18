@@ -1,0 +1,24 @@
+Requirement already satisfied: pydantic in /home/ai/agilPro/ml-service/venv/lib/python3.12/site-packages (2.4.2)
+Collecting pydantic
+  Using cached pydantic-2.12.4-py3-none-any.whl.metadata (89 kB)
+Requirement already satisfied: annotated-types>=0.6.0 in /home/ai/agilPro/ml-service/venv/lib/python3.12/site-packages (from pydantic) (0.7.0)
+Collecting pydantic-core==2.41.5 (from pydantic)
+  Downloading pydantic_core-2.41.5-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (7.3 kB)
+Requirement already satisfied: typing-extensions>=4.14.1 in /home/ai/agilPro/ml-service/venv/lib/python3.12/site-packages (from pydantic) (4.15.0)
+Collecting typing-inspection>=0.4.2 (from pydantic)
+  Using cached typing_inspection-0.4.2-py3-none-any.whl.metadata (2.6 kB)
+Using cached pydantic-2.12.4-py3-none-any.whl (463 kB)
+Downloading pydantic_core-2.41.5-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.1/2.1 MB 884.2 kB/s  0:00:03
+Using cached typing_inspection-0.4.2-py3-none-any.whl (14 kB)
+Installing collected packages: typing-inspection, pydantic-core, pydantic
+  Attempting uninstall: pydantic-core
+    Found existing installation: pydantic_core 2.10.1
+    Uninstalling pydantic_core-2.10.1:
+      Successfully uninstalled pydantic_core-2.10.1
+  Attempting uninstall: pydantic
+    Found existing installation: pydantic 2.4.2
+    Uninstalling pydantic-2.4.2:
+      Successfully uninstalled pydantic-2.4.2
+
+Successfully installed pydantic-2.12.4 pydantic-core-2.41.5 typing-inspection-0.4.2
